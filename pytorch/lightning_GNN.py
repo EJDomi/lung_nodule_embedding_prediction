@@ -13,9 +13,9 @@ import torchmetrics
 import pytorch_lightning as L
 
 from lifelines.utils import concordance_index
-import lung_repo.pytorch.extractor_networks as en
-import lung_repo.pytorch.gnn_networks as graphs
-import lung_repo.pytorch.user_metrics as um
+import lung_module_embedding_prediction.pytorch.extractor_networks as en
+import lung_module_embedding_prediction.pytorch.gnn_networks as graphs
+import lung_module_embedding_prediction.pytorch.user_metrics as um
 
 class Classify(nn.Module):
     def __init__(self, in_channels, n_classes):

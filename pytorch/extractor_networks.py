@@ -2,12 +2,12 @@ import torch
 from torch import nn
 from torch.nn import LeakyReLU, Dropout
 
-from lung_repo.pytorch.resnet_lightning import * 
-from lung_repo.pytorch.sgc_cnn import SGC_CNN 
-from lung_repo.pytorch.densenet import DenseNet3d 
-#from lung_repo.pytorch.net_swin import SwinTransformer
-from lung_repo.pytorch.resnet_spottune import SpotTune
-#from lung_repo.pytorch.net_vit import ViT
+from lung_module_embedding_prediction.pytorch.resnet_lightning import * 
+from lung_module_embedding_prediction.pytorch.sgc_cnn import SGC_CNN 
+from lung_module_embedding_prediction.pytorch.densenet import DenseNet3d 
+#from lung_module_embedding_prediction.pytorch.net_swin import SwinTransformer
+from lung_module_embedding_prediction.pytorch.resnet_spottune import SpotTune
+#from lung_module_embedding_prediction.pytorch.net_vit import ViT
 from monai.networks.nets.vit import ViT
 
 

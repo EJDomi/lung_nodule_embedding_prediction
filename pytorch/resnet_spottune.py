@@ -5,7 +5,7 @@ from torch import nn
 from torch.autograd import Variable
 import torch.nn.functional as F
 import math
-from lung_repo.pytorch.transfer_layer_translation_cfg import layer_loop, layer_loop_downsample 
+from lung_module_embedding_prediction.pytorch.transfer_layer_translation_cfg import layer_loop, layer_loop_downsample 
 
 class BasicBlock(nn.Module):
     expansion = 1

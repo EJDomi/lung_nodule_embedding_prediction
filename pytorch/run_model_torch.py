@@ -24,9 +24,9 @@ import torchmetrics
 
 import pytorch_lightning as L
 
-import lung_repo.pytorch.lightning_GNN as gnn_modules
-from lung_repo.pytorch.dataset_class import DatasetGeneratorImage
-from lung_repo.pytorch.run_model_base import RunModel
+import lung_module_embedding_prediction.pytorch.lightning_GNN as gnn_modules
+from lung_module_embedding_prediction.pytorch.dataset_class import DatasetGeneratorImage
+from lung_module_embedding_prediction.pytorch.run_model_base import RunModel
 
 class RunMalignancyModel(RunModel):
     def __init__(self, config):

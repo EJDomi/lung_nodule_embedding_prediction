@@ -25,8 +25,8 @@ import torchmetrics
 import pytorch_lightning as L
 
 ### Replace with relevant directory names until I figure something else out#######
-import lung_repo.pytorch.lightning_GNN as gnn_modules
-from lung_repo.pytorch.dataset_class import DatasetGeneratorImage
+import lung_module_embedding_prediction.pytorch.lightning_GNN as gnn_modules
+from lung_module_embedding_prediction.pytorch.dataset_class import DatasetGeneratorImage
 #################################################################################
 
 class RunModel(object):
